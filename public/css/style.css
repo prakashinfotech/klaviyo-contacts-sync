@@ -1,0 +1,40 @@
+.dataTables_filter{
+    margin-bottom :20px !important;
+}
+.alert-danger ul{
+    margin: 0; !important;
+    padding-left: 1rem; !important;
+}
+.required {
+    color: red;!important;
+}
+.error {
+    color: #dc3545 !important;
+    font-size: 1rem !important;
+    position: relative !important;
+    line-height: 1 !important;
+}
+.error:before {
+    content: attr(data-text) !important;
+    position: absolute !important;
+    left: -2px !important;
+    text-shadow: 1px 0 #4e73df !important;
+    top: 0 !important;
+    color: #2d3748 !important;
+    background: #f7fafc !important;
+    overflow: hidden !important;
+    clip: rect(0,900px,0,0) !important;
+    animation: noise-anim-2 3s infinite linear alternate-reverse !important;
+}
+.error:after {
+    content: attr(data-text) !important;
+    position: absolute !important;
+    left: 2px !important;
+    text-shadow: -1px 0 #e74a3b !important;
+    top: 0 !important;
+    color: #2d3748 !important;
+    background: #f7fafc !important;
+    overflow: hidden !important;
+    clip: rect(0,900px,0,0) !important;
+    animation: noise-anim 2s infinite linear alternate-reverse !important;
+}
